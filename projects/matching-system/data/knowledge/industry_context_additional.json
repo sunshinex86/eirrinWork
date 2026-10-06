@@ -1,0 +1,51 @@
+[
+  {
+    "id": "industry-energy",
+    "content": "エネルギー業界では、スマートグリッド、再生可能エネルギー管理、需給予測システムなどが中心。Python、R、SCADA、IoTプラットフォームが主要スキル。データ分析とセキュリティ知識が重視される。",
+    "category": "industry",
+    "tags": ["エネルギー", "電力", "ガス", "スマートグリッド", "再生可能エネルギー"],
+    "source": "industry_knowledge"
+  },
+  {
+    "id": "industry-realestate",
+    "content": "不動産業界では、物件管理システム、賃貸管理、不動産DX、CRMが中心。Web技術（JavaScript、React）、クラウド（AWS）、GIS（地理情報システム）が求められる。",
+    "category": "industry",
+    "tags": ["不動産", "物件管理", "住宅", "デベロッパー"],
+    "source": "industry_knowledge"
+  },
+  {
+    "id": "industry-logistics",
+    "content": "運輸・物流業界では、配送管理システム（TMS）、倉庫管理（WMS）、需要予測、運行管理が中心。Java、Python、IoT、クラウド技術が主要スキル。AIによる最適化需要が高い。",
+    "category": "industry",
+    "tags": ["運輸", "物流", "配送", "倉庫管理", "サプライチェーン"],
+    "source": "industry_knowledge"
+  },
+  {
+    "id": "industry-entertainment",
+    "content": "エンタメ・ゲーム業界では、ゲーム開発、配信プラットフォーム、メタバースが中心。Unity、Unreal Engine、C#、C++、3DCG、WebGLが主要スキル。ネットワーク技術とUX設計も重視される。",
+    "category": "industry",
+    "tags": ["エンタメ", "ゲーム", "メディア", "配信", "コンテンツ"],
+    "source": "industry_knowledge"
+  },
+  {
+    "id": "industry-government",
+    "content": "官公庁・公共業界では、住民情報系システム、税務、社会保障、防災システムが中心。Java、COBOL、SQL Server、オンプレミス基盤が多く、セキュリティと安定性が最優先。",
+    "category": "industry",
+    "tags": ["官公庁", "公共", "行政", "自治体", "防災"],
+    "source": "industry_knowledge"
+  },
+  {
+    "id": "industry-education",
+    "content": "教育・EdTech業界では、学習管理システム（LMS）、オンライン教育プラットフォーム、教材配信システムが中心。Web技術（React、Node.js）、クラウド、動画配信技術が主要スキル。",
+    "category": "industry",
+    "tags": ["教育", "EdTech", "学習", "eラーニング", "人材育成"],
+    "source": "industry_knowledge"
+  },
+  {
+    "id": "industry-hr",
+    "content": "人材・HR業界では、採用管理システム（ATS）、タレントマネジメント、給与計算、HR分析が中心。Web技術、クラウド、データ分析が主要スキル。AIマッチングやRPA需要も高い。",
+    "category": "industry",
+    "tags": ["人材", "HR", "採用", "タレントマネジメント", "労務"],
+    "source": "industry_knowledge"
+  }
+]

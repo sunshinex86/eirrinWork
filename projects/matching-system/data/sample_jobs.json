@@ -1,0 +1,252 @@
+[
+  {
+    "id": "job-001",
+    "title": "Pythonバックエンドエンジニア",
+    "company": "GHIテクノロジーズ株式会社",
+    "industry": "IT・通信",
+    "job_type": "ITエンジニア",
+    "location": "東京都渋谷区",
+    "remote_policy": "週2回リモート可",
+    "required_skills": {
+      "languages": [
+        "Python",
+        "SQL"
+      ],
+      "frameworks": [
+        "Django",
+        "FastAPI"
+      ],
+      "tools": [
+        "Docker",
+        "Git"
+      ],
+      "other": [
+        "REST API設計経験"
+      ]
+    },
+    "preferred_skills": {
+      "languages": [
+        "TypeScript",
+        "Go"
+      ],
+      "frameworks": [
+        "React"
+      ],
+      "tools": [
+        "AWS",
+        "Kubernetes"
+      ],
+      "other": [
+        "チームリーダー経験",
+        "アジャイル開発"
+      ]
+    },
+    "description": "自社SaaSプロダクトのバックエンド開発。マイクロサービスアーキテクチャへの移行プロジェクト。Python/DjangoからFastAPIへの段階的移行を推進していただきます。",
+    "required_experience_years": 5,
+    "employment_type": "正社員",
+    "duration": "長期",
+    "headcount": 2,
+    "unit_price_min": 60,
+    "unit_price_max": 90,
+    "posted_date": "2026-01-15",
+    "project_start_date": "2026-02-01"
+  },
+  {
+    "id": "job-002",
+    "title": "データサイエンティスト",
+    "company": "データラボ株式会社",
+    "industry": "IT・通信",
+    "job_type": "データサイエンティスト",
+    "location": "東京都品川区",
+    "remote_policy": "フルリモート可",
+    "required_skills": {
+      "languages": [
+        "Python",
+        "SQL"
+      ],
+      "frameworks": [],
+      "tools": [
+        "BigQuery",
+        "Tableau"
+      ],
+      "other": [
+        "データ分析",
+        "統計学の知識"
+      ]
+    },
+    "preferred_skills": {
+      "languages": [
+        "R"
+      ],
+      "frameworks": [
+        "Power BI"
+      ],
+      "tools": [
+        "Snowflake"
+      ],
+      "other": [
+        "機械学習",
+        "A/Bテスト経験"
+      ]
+    },
+    "description": "ECサイトの購買データ分析によるレコメンデーション改善。顧客セグメンテーション分析と施策効果測定を担当していただきます。",
+    "required_experience_years": 3,
+    "employment_type": "正社員",
+    "duration": "長期",
+    "headcount": 1,
+    "unit_price_min": 50,
+    "unit_price_max": 75,
+    "posted_date": "2026-03-10",
+    "project_start_date": "2026-04-01"
+  },
+  {
+    "id": "job-003",
+    "title": "プロジェクトマネージャー（製造業向けシステム）",
+    "company": "大阪テクノロジーソリューションズ",
+    "industry": "製造",
+    "job_type": "プロジェクトマネージャー",
+    "location": "大阪府大阪市",
+    "remote_policy": "週1回リモート可",
+    "required_skills": {
+      "languages": [
+        "Java"
+      ],
+      "frameworks": [
+        "Spring"
+      ],
+      "tools": [
+        "Docker",
+        "Git"
+      ],
+      "other": [
+        "プロジェクト管理",
+        "PMP",
+        "要件定義"
+      ]
+    },
+    "preferred_skills": {
+      "languages": [
+        "Python",
+        "SQL"
+      ],
+      "frameworks": [],
+      "tools": [
+        "Jenkins",
+        "Redmine"
+      ],
+      "other": [
+        "PMO経験",
+        "ベンダーマネジメント",
+        "製造業界経験"
+      ]
+    },
+    "description": "大手製造業の次期基幹システム構築プロジェクト。企画フェーズから参画し、要件定義・ベンダー選定・開発管理まで一貫してリードしていただきます。",
+    "required_experience_years": 10,
+    "employment_type": "正社員",
+    "duration": "3年以上",
+    "headcount": 1,
+    "unit_price_min": 80,
+    "unit_price_max": 110,
+    "posted_date": "2026-05-20",
+    "project_start_date": "2026-07-01"
+  },
+  {
+    "id": "job-004",
+    "title": "フロントエンドエンジニア（React）",
+    "company": "スタートアップテック",
+    "industry": "IT・通信",
+    "job_type": "ITエンジニア",
+    "location": "東京都渋谷区",
+    "remote_policy": "フルリモート可",
+    "required_skills": {
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "frameworks": [
+        "React",
+        "Next.js"
+      ],
+      "tools": [
+        "Git"
+      ],
+      "other": [
+        "SPA開発経験"
+      ]
+    },
+    "preferred_skills": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [
+        "Vue.js"
+      ],
+      "tools": [
+        "Docker",
+        "AWS"
+      ],
+      "other": [
+        "UI/UXデザイン経験",
+        "GraphQL経験"
+      ]
+    },
+    "description": "B2B SaaSプロダクトのフロントエンド刷新。React/Next.jsでのSPA開発、コンポーネント設計からパフォーマンス最適化まで。",
+    "required_experience_years": 3,
+    "employment_type": "正社員",
+    "duration": "長期",
+    "headcount": 1,
+    "unit_price_min": 50,
+    "unit_price_max": 80,
+    "posted_date": "2026-06-05",
+    "project_start_date": "2026-07-15"
+  },
+  {
+    "id": "job-005",
+    "title": "インフラエンジニア（AWS）",
+    "company": "クラウドネイティブ株式会社",
+    "industry": "IT・通信",
+    "job_type": "インフラエンジニア",
+    "location": "東京都港区",
+    "remote_policy": "週3回リモート可",
+    "required_skills": {
+      "languages": [
+        "Python",
+        "Shell"
+      ],
+      "frameworks": [],
+      "tools": [
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "Terraform"
+      ],
+      "other": [
+        "CI/CD設計経験"
+      ]
+    },
+    "preferred_skills": {
+      "languages": [
+        "Go"
+      ],
+      "frameworks": [],
+      "tools": [
+        "GCP",
+        "Azure",
+        "Ansible"
+      ],
+      "other": [
+        "セキュリティ知識",
+        "コスト最適化経験"
+      ]
+    },
+    "description": "マルチクラウド環境のインフラ設計・運用。EKSのクラスター管理、TerraformによるIaC推進、監視基盤の構築を担当。",
+    "required_experience_years": 5,
+    "employment_type": "正社員",
+    "duration": "長期",
+    "headcount": 2,
+    "unit_price_min": 70,
+    "unit_price_max": 100,
+    "posted_date": "2026-07-25",
+    "project_start_date": "2026-09-01"
+  }
+]

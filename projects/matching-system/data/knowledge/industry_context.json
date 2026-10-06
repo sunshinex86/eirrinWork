@@ -1,0 +1,37 @@
+[
+  {
+    "id": "industry-it",
+    "content": "IT・通信業界は、ソフトウェア開発、Webサービス、通信インフラなどを含む。プログラミング言語、フレームワーク、クラウド技術が主要スキル。アジャイル開発やDevOpsが一般的。",
+    "category": "industry",
+    "tags": ["IT", "通信", "ソフトウェア", "Web"],
+    "source": "industry_knowledge"
+  },
+  {
+    "id": "industry-finance",
+    "content": "金融業界では、高度なセキュリティ、安定性、大量トランザクション処理が求められる。Java、COBOL、SQL Server、Oracle Databaseがよく使われる。PMPやITILなどの資格が重視される。",
+    "category": "industry",
+    "tags": ["金融", "銀行", "保険", "証券", "セキュリティ"],
+    "source": "industry_knowledge"
+  },
+  {
+    "id": "industry-manufacturing",
+    "content": "製造業界では、IoT、CAD/CAM、PLM、MESなどのシステムが使われる。C/C++、Java、PLC、組込み開発が主要スキル。品質管理やプロジェクト管理能力が重視される。",
+    "category": "industry",
+    "tags": ["製造", "メーカー", "自動車", "電機", "組込み"],
+    "source": "industry_knowledge"
+  },
+  {
+    "id": "industry-healthcare",
+    "content": "医療・ヘルスケア業界では、電子カルテ、レセプトシステム、医療画像処理などが中心。セキュリティとプライバシー保護が最重要。Python、R、SQLがよく使われる。",
+    "category": "industry",
+    "tags": ["医療", "病院", "ヘルスケア", "介護"],
+    "source": "industry_knowledge"
+  },
+  {
+    "id": "industry-retail",
+    "content": "小売・EC業界では、在庫管理、決済システム、CRM、レコメンデーションエンジンなどが中心。Web技術（JavaScript、React、Node.js）やクラウド（AWS、GCP）が重視される。",
+    "category": "industry",
+    "tags": ["小売", "流通", "卸売", "EC", "e-commerce"],
+    "source": "industry_knowledge"
+  }
+]

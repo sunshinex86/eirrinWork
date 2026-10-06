@@ -1,0 +1,30 @@
+[
+  {
+    "id": "role-scrum-master",
+    "content": "スクラムマスターは、スクラムフレームワークの推進、チームのファシリテーション、障害除去、改善サイクルの促進を担当。アジャイル開発経験、ファシリテーション能力、コーチングスキルが重要。JiraやConfluenceの運用知識も求められる。",
+    "category": "role",
+    "tags": ["スクラムマスター", "アジャイル", "スクラム", "ファシリテーター"],
+    "source": "role_knowledge"
+  },
+  {
+    "id": "role-tech-support",
+    "content": "テクニカルサポートは、システムの運用監視、障害対応、ユーザー問い合わせ対応、インシデント管理、ナレッジベース整備を担当。ITIL、ネットワーク知識、データベース知識、コミュニケーション能力が重視される。",
+    "category": "role",
+    "tags": ["テクニカルサポート", "運用", "保守", "ヘルプデスク", "ITIL"],
+    "source": "role_knowledge"
+  },
+  {
+    "id": "role-security-engineer",
+    "content": "セキュリティエンジニアは、脆弱性診断、セキュリティ設計、インシデント対応、セキュリティ監視、ポリシー策定を担当。ネットワークセキュリティ、暗号化、認証認可技術、OWASP知識が必須。CISSPやCEHなどの資格が重視される。",
+    "category": "role",
+    "tags": ["セキュリティエンジニア", "セキュリティ", "脆弱性診断", "インシデント対応"],
+    "source": "role_knowledge"
+  },
+  {
+    "id": "role-cloud-engineer",
+    "content": "クラウドエンジニアは、クラウドインフラの設計・構築・運用、マイグレーション、コスト最適化、可用性設計を担当。AWS、GCP、Azureのいずれかの深い知識とTerraform、Kubernetes、DockerなどのIaCスキルが求められる。",
+    "category": "role",
+    "tags": ["クラウドエンジニア", "AWS", "GCP", "Azure", "クラウドインフラ"],
+    "source": "role_knowledge"
+  }
+]

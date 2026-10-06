@@ -1,0 +1,207 @@
+[
+  {
+    "id": "resume-001",
+    "name": "田中 太郎",
+    "age": 34,
+    "email": "tanaka@example.com",
+    "phone": "090-1234-5678",
+    "location": "東京都港区",
+    "desired_locations": [
+      "東京都23区内",
+      "リモート可"
+    ],
+    "education": [
+      {
+        "school": "東京大学",
+        "department": "工学部 情報工学科",
+        "graduation_year": 2014,
+        "degree": "学士"
+      }
+    ],
+    "work_history": [
+      {
+        "company": "株式会社ABCテクノロジー",
+        "position": "シニアエンジニア",
+        "start_date": "2020-04",
+        "end_date": null,
+        "description": "Webアプリケーション開発。Python/Djangoを使用したバックエンドAPI開発。チームリーダーとして5名のメンバーをマネジメント。",
+        "industry": "IT・通信"
+      },
+      {
+        "company": "DEFソフトウェア株式会社",
+        "position": "エンジニア",
+        "start_date": "2014-04",
+        "end_date": "2020-03",
+        "description": "Javaによる業務システム開発。要件定義からテストまで一貫して担当。",
+        "industry": "IT・通信"
+      }
+    ],
+    "skills": {
+      "languages": [
+        "Python",
+        "Java",
+        "SQL",
+        "TypeScript"
+      ],
+      "frameworks": [
+        "Django",
+        "FastAPI",
+        "React"
+      ],
+      "tools": [
+        "Docker",
+        "Git",
+        "AWS",
+        "Jenkins"
+      ],
+      "certifications": [
+        "基本情報技術者",
+        "AWS SAA"
+      ],
+      "other": [
+        "アジャイル開発",
+        "スクラムマスター経験",
+        "チームリーダー経験"
+      ]
+    },
+    "years_of_experience": 12,
+    "employment_type": "正社員",
+    "self_pr": "新しい技術へのキャッチアップが早く、チーム開発を円滑に進めることが得意です。",
+    "desired_unit_price_min": 70,
+    "desired_unit_price_max": 100,
+    "registered_at": "2026-01-20"
+  },
+  {
+    "id": "resume-002",
+    "name": "鈴木 花子",
+    "age": 28,
+    "email": "suzuki@example.com",
+    "phone": "090-9876-5432",
+    "location": "神奈川県横浜市",
+    "desired_locations": [
+      "東京都23区内",
+      "神奈川県",
+      "リモート可"
+    ],
+    "education": [
+      {
+        "school": "慶應義塾大学",
+        "department": "経済学部",
+        "graduation_year": 2020,
+        "degree": "学士"
+      }
+    ],
+    "work_history": [
+      {
+        "company": "株式会社データインサイト",
+        "position": "データアナリスト",
+        "start_date": "2020-04",
+        "end_date": null,
+        "description": "Python、SQLを用いたデータ分析。Tableauでのダッシュボード作成。顧客データの分析レポート作成。",
+        "industry": "IT・通信"
+      }
+    ],
+    "skills": {
+      "languages": [
+        "Python",
+        "SQL",
+        "R"
+      ],
+      "frameworks": [
+        "Tableau",
+        "Power BI"
+      ],
+      "tools": [
+        "Git",
+        "Jupyter",
+        "BigQuery"
+      ],
+      "certifications": [
+        "統計検定2級"
+      ],
+      "other": [
+        "データ分析",
+        "機械学習基礎",
+        "ビジネスコミュニケーション"
+      ]
+    },
+    "years_of_experience": 6,
+    "employment_type": "正社員",
+    "self_pr": "データに基づいた意思決定支援が得意です。ビジネス課題をデータで解決することにやりがいを感じます。",
+    "desired_unit_price_min": 50,
+    "desired_unit_price_max": 70,
+    "registered_at": "2026-03-05"
+  },
+  {
+    "id": "resume-003",
+    "name": "佐藤 健一",
+    "age": 42,
+    "email": "sato@example.com",
+    "phone": "080-5555-1234",
+    "location": "大阪府大阪市",
+    "desired_locations": [
+      "大阪府",
+      "リモート"
+    ],
+    "education": [
+      {
+        "school": "大阪大学",
+        "department": "基礎工学部",
+        "graduation_year": 2006,
+        "degree": "修士"
+      }
+    ],
+    "work_history": [
+      {
+        "company": "関西システム開発株式会社",
+        "position": "プロジェクトマネージャー",
+        "start_date": "2018-04",
+        "end_date": null,
+        "description": "大規模基幹システムのリプレースプロジェクト管理。予算5億円、チーム30名規模。",
+        "industry": "製造"
+      },
+      {
+        "company": "株式会社ITソリューション",
+        "position": "シニアエンジニア",
+        "start_date": "2006-04",
+        "end_date": "2018-03",
+        "description": "製造業向けERPシステムの設計・開発。Java/Spring Frameworkを使用。",
+        "industry": "製造"
+      }
+    ],
+    "skills": {
+      "languages": [
+        "Java",
+        "C#",
+        "SQL",
+        "Python"
+      ],
+      "frameworks": [
+        "Spring",
+        ".NET"
+      ],
+      "tools": [
+        "Docker",
+        "Git",
+        "Jenkins",
+        "Redmine"
+      ],
+      "certifications": [
+        "PMP",
+        "情報処理安全確保支援士"
+      ],
+      "other": [
+        "プロジェクト管理",
+        "要件定義",
+        "ベンダーマネジメント",
+        "PMO経験"
+      ]
+    },
+    "years_of_experience": 20,
+    "employment_type": "正社員",
+    "self_pr": "20年にわたるシステム開発経験を活かし、大規模プロジェクトを成功に導きます。技術とマネジメントの両面で貢献できます。",
+    "desired_unit_price_min": 90,
+    "desired_unit_price_max": 120,
+    "registered_at": "2026-05-12"
+  }
+]

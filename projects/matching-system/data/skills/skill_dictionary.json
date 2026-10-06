@@ -1,0 +1,974 @@
+{
+  "description": "スキル辞書 - IT案件から収集したスキル定義",
+  "version": "1.0.0",
+  "skills": [
+    {
+      "id": "python",
+      "name": "Python",
+      "category": "programming_language",
+      "aliases": [
+        "py"
+      ]
+    },
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "category": "programming_language",
+      "aliases": [
+        "js"
+      ]
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "category": "programming_language",
+      "aliases": [
+        "ts"
+      ]
+    },
+    {
+      "id": "java",
+      "name": "Java",
+      "category": "programming_language",
+      "aliases": []
+    },
+    {
+      "id": "csharp",
+      "name": "C#",
+      "category": "programming_language",
+      "aliases": [
+        "cs",
+        "c#"
+      ]
+    },
+    {
+      "id": "cpp",
+      "name": "C++",
+      "category": "programming_language",
+      "aliases": [
+        "c++",
+        "cpp"
+      ]
+    },
+    {
+      "id": "c",
+      "name": "C",
+      "category": "programming_language",
+      "aliases": []
+    },
+    {
+      "id": "go",
+      "name": "Go",
+      "category": "programming_language",
+      "aliases": [
+        "golang"
+      ]
+    },
+    {
+      "id": "rust",
+      "name": "Rust",
+      "category": "programming_language",
+      "aliases": [
+        "rs"
+      ]
+    },
+    {
+      "id": "ruby",
+      "name": "Ruby",
+      "category": "programming_language",
+      "aliases": [
+        "rb"
+      ]
+    },
+    {
+      "id": "php",
+      "name": "PHP",
+      "category": "programming_language",
+      "aliases": []
+    },
+    {
+      "id": "swift",
+      "name": "Swift",
+      "category": "programming_language",
+      "aliases": []
+    },
+    {
+      "id": "kotlin",
+      "name": "Kotlin",
+      "category": "programming_language",
+      "aliases": [
+        "kt"
+      ]
+    },
+    {
+      "id": "scala",
+      "name": "Scala",
+      "category": "programming_language",
+      "aliases": []
+    },
+    {
+      "id": "r",
+      "name": "R",
+      "category": "programming_language",
+      "aliases": []
+    },
+    {
+      "id": "html",
+      "name": "HTML",
+      "category": "markup",
+      "aliases": [
+        "html5"
+      ]
+    },
+    {
+      "id": "css",
+      "name": "CSS",
+      "category": "markup",
+      "aliases": [
+        "css3"
+      ]
+    },
+    {
+      "id": "sql",
+      "name": "SQL",
+      "category": "database",
+      "aliases": []
+    },
+    {
+      "id": "shell",
+      "name": "Shell Script",
+      "category": "programming_language",
+      "aliases": [
+        "bash"
+      ]
+    },
+    {
+      "id": "powershell",
+      "name": "PowerShell",
+      "category": "programming_language",
+      "aliases": []
+    },
+    {
+      "id": "vba",
+      "name": "VBA",
+      "category": "programming_language",
+      "aliases": []
+    },
+    {
+      "id": "dotnet",
+      "name": ".NET",
+      "category": "framework",
+      "aliases": [
+        ".net",
+        "dotnet"
+      ]
+    },
+    {
+      "id": "aspnet",
+      "name": "ASP.NET",
+      "category": "framework",
+      "aliases": [
+        "asp.net",
+        "asp"
+      ]
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "category": "framework",
+      "aliases": [
+        "node",
+        "node.js"
+      ]
+    },
+    {
+      "id": "deno",
+      "name": "Deno",
+      "category": "framework",
+      "aliases": []
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "category": "framework",
+      "aliases": [
+        "react.js",
+        "reactjs"
+      ]
+    },
+    {
+      "id": "vuejs",
+      "name": "Vue.js",
+      "category": "framework",
+      "aliases": [
+        "vue",
+        "vue.js",
+        "vuejs"
+      ]
+    },
+    {
+      "id": "angular",
+      "name": "Angular",
+      "category": "framework",
+      "aliases": [
+        "angular.js",
+        "angularjs"
+      ]
+    },
+    {
+      "id": "nextjs",
+      "name": "Next.js",
+      "category": "framework",
+      "aliases": [
+        "next",
+        "next.js",
+        "nextjs"
+      ]
+    },
+    {
+      "id": "nuxtjs",
+      "name": "Nuxt.js",
+      "category": "framework",
+      "aliases": [
+        "nuxt",
+        "nuxt.js",
+        "nuxtjs"
+      ]
+    },
+    {
+      "id": "express",
+      "name": "Express",
+      "category": "framework",
+      "aliases": [
+        "express.js"
+      ]
+    },
+    {
+      "id": "nestjs",
+      "name": "NestJS",
+      "category": "framework",
+      "aliases": []
+    },
+    {
+      "id": "django",
+      "name": "Django",
+      "category": "framework",
+      "aliases": []
+    },
+    {
+      "id": "flask",
+      "name": "Flask",
+      "category": "framework",
+      "aliases": []
+    },
+    {
+      "id": "fastapi",
+      "name": "FastAPI",
+      "category": "framework",
+      "aliases": []
+    },
+    {
+      "id": "spring",
+      "name": "Spring",
+      "category": "framework",
+      "aliases": []
+    },
+    {
+      "id": "spring-boot",
+      "name": "Spring Boot",
+      "category": "framework",
+      "aliases": [
+        "spring boot"
+      ]
+    },
+    {
+      "id": "spring-security",
+      "name": "Spring Security",
+      "category": "framework",
+      "aliases": [
+        "spring security"
+      ]
+    },
+    {
+      "id": "spring-cloud",
+      "name": "Spring Cloud",
+      "category": "framework",
+      "aliases": [
+        "spring cloud"
+      ]
+    },
+    {
+      "id": "rails",
+      "name": "Ruby on Rails",
+      "category": "framework",
+      "aliases": [
+        "ruby on rails"
+      ]
+    },
+    {
+      "id": "laravel",
+      "name": "Laravel",
+      "category": "framework",
+      "aliases": []
+    },
+    {
+      "id": "symfony",
+      "name": "Symfony",
+      "category": "framework",
+      "aliases": []
+    },
+    {
+      "id": "jquery",
+      "name": "jQuery",
+      "category": "library",
+      "aliases": []
+    },
+    {
+      "id": "bootstrap",
+      "name": "Bootstrap",
+      "category": "library",
+      "aliases": []
+    },
+    {
+      "id": "tailwind-css",
+      "name": "Tailwind CSS",
+      "category": "library",
+      "aliases": [
+        "tailwind",
+        "tailwindcss"
+      ]
+    },
+    {
+      "id": "sass",
+      "name": "Sass/SCSS",
+      "category": "library",
+      "aliases": [
+        "scss"
+      ]
+    },
+    {
+      "id": "electron",
+      "name": "Electron",
+      "category": "framework",
+      "aliases": []
+    },
+    {
+      "id": "react-native",
+      "name": "React Native",
+      "category": "framework",
+      "aliases": [
+        "react native"
+      ]
+    },
+    {
+      "id": "flutter",
+      "name": "Flutter",
+      "category": "framework",
+      "aliases": []
+    },
+    {
+      "id": "unity",
+      "name": "Unity",
+      "category": "framework",
+      "aliases": []
+    },
+    {
+      "id": "unreal-engine",
+      "name": "Unreal Engine",
+      "category": "framework",
+      "aliases": [
+        "unreal engine",
+        "unreal"
+      ]
+    },
+    {
+      "id": "pytorch",
+      "name": "PyTorch",
+      "category": "library",
+      "aliases": [
+        "torch"
+      ]
+    },
+    {
+      "id": "tensorflow",
+      "name": "TensorFlow",
+      "category": "library",
+      "aliases": [
+        "tf"
+      ]
+    },
+    {
+      "id": "keras",
+      "name": "Keras",
+      "category": "library",
+      "aliases": []
+    },
+    {
+      "id": "scikit-learn",
+      "name": "scikit-learn",
+      "category": "library",
+      "aliases": [
+        "sklearn"
+      ]
+    },
+    {
+      "id": "pandas",
+      "name": "pandas",
+      "category": "library",
+      "aliases": []
+    },
+    {
+      "id": "numpy",
+      "name": "NumPy",
+      "category": "library",
+      "aliases": []
+    },
+    {
+      "id": "opencv",
+      "name": "OpenCV",
+      "category": "library",
+      "aliases": []
+    },
+    {
+      "id": "matplotlib",
+      "name": "Matplotlib",
+      "category": "library",
+      "aliases": []
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "category": "tool",
+      "aliases": []
+    },
+    {
+      "id": "playwright",
+      "name": "Playwright",
+      "category": "tool",
+      "aliases": []
+    },
+    {
+      "id": "puppeteer",
+      "name": "Puppeteer",
+      "category": "tool",
+      "aliases": []
+    },
+    {
+      "id": "jest",
+      "name": "Jest",
+      "category": "tool",
+      "aliases": []
+    },
+    {
+      "id": "pytest",
+      "name": "pytest",
+      "category": "tool",
+      "aliases": []
+    },
+    {
+      "id": "junit",
+      "name": "JUnit",
+      "category": "tool",
+      "aliases": []
+    },
+    {
+      "id": "mocha",
+      "name": "Mocha",
+      "category": "tool",
+      "aliases": []
+    },
+    {
+      "id": "webpack",
+      "name": "Webpack",
+      "category": "tool",
+      "aliases": []
+    },
+    {
+      "id": "vite",
+      "name": "Vite",
+      "category": "tool",
+      "aliases": []
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "category": "infrastructure",
+      "aliases": []
+    },
+    {
+      "id": "kubernetes",
+      "name": "Kubernetes",
+      "category": "infrastructure",
+      "aliases": [
+        "k8s"
+      ]
+    },
+    {
+      "id": "terraform",
+      "name": "Terraform",
+      "category": "infrastructure",
+      "aliases": []
+    },
+    {
+      "id": "ansible",
+      "name": "Ansible",
+      "category": "infrastructure",
+      "aliases": []
+    },
+    {
+      "id": "jenkins",
+      "name": "Jenkins",
+      "category": "infrastructure",
+      "aliases": []
+    },
+    {
+      "id": "circleci",
+      "name": "CircleCI",
+      "category": "infrastructure",
+      "aliases": []
+    },
+    {
+      "id": "github-actions",
+      "name": "GitHub Actions",
+      "category": "infrastructure",
+      "aliases": [
+        "github actions"
+      ]
+    },
+    {
+      "id": "gitlab-ci",
+      "name": "GitLab CI",
+      "category": "infrastructure",
+      "aliases": [
+        "gitlab ci"
+      ]
+    },
+    {
+      "id": "mysql",
+      "name": "MySQL",
+      "category": "database",
+      "aliases": []
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "category": "database",
+      "aliases": [
+        "postgres",
+        "pg"
+      ]
+    },
+    {
+      "id": "oracle-db",
+      "name": "Oracle Database",
+      "category": "database",
+      "aliases": [
+        "oracle",
+        "oracle db"
+      ]
+    },
+    {
+      "id": "sql-server",
+      "name": "SQL Server",
+      "category": "database",
+      "aliases": [
+        "mssql",
+        "sqlserver",
+        "sql server"
+      ]
+    },
+    {
+      "id": "mongodb",
+      "name": "MongoDB",
+      "category": "database",
+      "aliases": [
+        "mongo"
+      ]
+    },
+    {
+      "id": "redis",
+      "name": "Redis",
+      "category": "database",
+      "aliases": []
+    },
+    {
+      "id": "elasticsearch",
+      "name": "Elasticsearch",
+      "category": "database",
+      "aliases": [
+        "es"
+      ]
+    },
+    {
+      "id": "dynamodb",
+      "name": "DynamoDB",
+      "category": "database",
+      "aliases": []
+    },
+    {
+      "id": "firestore",
+      "name": "Firestore",
+      "category": "database",
+      "aliases": []
+    },
+    {
+      "id": "bigquery",
+      "name": "BigQuery",
+      "category": "database",
+      "aliases": [
+        "bq"
+      ]
+    },
+    {
+      "id": "redshift",
+      "name": "Redshift",
+      "category": "database",
+      "aliases": []
+    },
+    {
+      "id": "aws",
+      "name": "AWS",
+      "category": "cloud",
+      "aliases": [
+        "amazon web services"
+      ]
+    },
+    {
+      "id": "gcp",
+      "name": "Google Cloud",
+      "category": "cloud",
+      "aliases": [
+        "google cloud",
+        "google cloud platform"
+      ]
+    },
+    {
+      "id": "azure",
+      "name": "Azure",
+      "category": "cloud",
+      "aliases": []
+    },
+    {
+      "id": "ncp",
+      "name": "Naver Cloud Platform",
+      "category": "cloud",
+      "aliases": [
+        "naver cloud"
+      ]
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "category": "tool",
+      "aliases": []
+    },
+    {
+      "id": "subversion",
+      "name": "Subversion",
+      "category": "tool",
+      "aliases": [
+        "svn"
+      ]
+    },
+    {
+      "id": "jira",
+      "name": "Jira",
+      "category": "tool",
+      "aliases": []
+    },
+    {
+      "id": "confluence",
+      "name": "Confluence",
+      "category": "tool",
+      "aliases": []
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "category": "tool",
+      "aliases": []
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "category": "tool",
+      "aliases": []
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "category": "design_tool",
+      "aliases": []
+    },
+    {
+      "id": "adobe-xd",
+      "name": "Adobe XD",
+      "category": "design_tool",
+      "aliases": []
+    },
+    {
+      "id": "photoshop",
+      "name": "Photoshop",
+      "category": "design_tool",
+      "aliases": []
+    },
+    {
+      "id": "illustrator",
+      "name": "Illustrator",
+      "category": "design_tool",
+      "aliases": []
+    },
+    {
+      "id": "machine-learning",
+      "name": "機械学習",
+      "category": "domain",
+      "aliases": [
+        "ml"
+      ]
+    },
+    {
+      "id": "deep-learning",
+      "name": "深層学習",
+      "category": "domain",
+      "aliases": [
+        "dl"
+      ]
+    },
+    {
+      "id": "natural-language-processing",
+      "name": "自然言語処理",
+      "category": "domain",
+      "aliases": [
+        "nlp"
+      ]
+    },
+    {
+      "id": "llm",
+      "name": "大規模言語モデル",
+      "category": "domain",
+      "aliases": [
+        "大規模言語モデル"
+      ]
+    },
+    {
+      "id": "rag",
+      "name": "RAG",
+      "category": "domain",
+      "aliases": []
+    },
+    {
+      "id": "image-recognition",
+      "name": "画像認識",
+      "category": "domain",
+      "aliases": []
+    },
+    {
+      "id": "data-analysis",
+      "name": "データ分析",
+      "category": "domain",
+      "aliases": []
+    },
+    {
+      "id": "data-engineering",
+      "name": "データエンジニアリング",
+      "category": "domain",
+      "aliases": []
+    },
+    {
+      "id": "project-management",
+      "name": "プロジェクト管理",
+      "category": "skill",
+      "aliases": []
+    },
+    {
+      "id": "agile",
+      "name": "アジャイル開発",
+      "category": "skill",
+      "aliases": []
+    },
+    {
+      "id": "scrum",
+      "name": "スクラム",
+      "category": "skill",
+      "aliases": []
+    },
+    {
+      "id": "requirements-definition",
+      "name": "要件定義",
+      "category": "skill",
+      "aliases": []
+    },
+    {
+      "id": "basic-design",
+      "name": "基本設計",
+      "category": "skill",
+      "aliases": []
+    },
+    {
+      "id": "detailed-design",
+      "name": "詳細設計",
+      "category": "skill",
+      "aliases": []
+    },
+    {
+      "id": "testing",
+      "name": "テスト",
+      "category": "skill",
+      "aliases": []
+    },
+    {
+      "id": "operation-maintenance",
+      "name": "運用保守",
+      "category": "skill",
+      "aliases": []
+    },
+    {
+      "id": "technical-support",
+      "name": "テクニカルサポート",
+      "category": "skill",
+      "aliases": []
+    },
+    {
+      "id": "uml",
+      "name": "UML",
+      "category": "skill",
+      "aliases": []
+    },
+    {
+      "id": "pmp",
+      "name": "PMP",
+      "category": "certification",
+      "aliases": []
+    },
+    {
+      "id": "itil",
+      "name": "ITIL",
+      "category": "certification",
+      "aliases": []
+    },
+    {
+      "id": "basic-information-engineer",
+      "name": "基本情報技術者",
+      "category": "certification",
+      "aliases": [],
+      "hierarchy_applicable": false
+    },
+    {
+      "id": "applied-information-engineer",
+      "name": "応用情報技術者",
+      "category": "certification",
+      "aliases": [],
+      "hierarchy_applicable": false
+    },
+    {
+      "id": "aws-saa",
+      "name": "AWS SAA",
+      "category": "certification",
+      "aliases": [
+        "aws solutions architect"
+      ],
+      "hierarchy_applicable": false
+    },
+    {
+      "id": "oracle-master",
+      "name": "Oracle Master",
+      "category": "certification",
+      "aliases": [],
+      "hierarchy_applicable": false
+    },
+    {
+      "id": "django-rest-framework",
+      "name": "Django REST Framework",
+      "category": "framework",
+      "aliases": [
+        "drf"
+      ]
+    },
+    {
+      "id": "swiftui",
+      "name": "SwiftUI",
+      "category": "framework",
+      "aliases": []
+    },
+    {
+      "id": "aspnet-core",
+      "name": "ASP.NET Core",
+      "category": "framework",
+      "aliases": []
+    },
+    {
+      "id": "kotlin-android",
+      "name": "Kotlin(Android)",
+      "category": "programming_language",
+      "aliases": []
+    },
+    {
+      "id": "tableau",
+      "name": "Tableau",
+      "category": "tool",
+      "aliases": [
+        "tableau"
+      ]
+    },
+    {
+      "id": "power-bi",
+      "name": "Power BI",
+      "category": "tool",
+      "aliases": [
+        "power_bi",
+        "powerbi",
+        "Power BI"
+      ]
+    },
+    {
+      "id": "jupyter",
+      "name": "Jupyter",
+      "category": "tool",
+      "aliases": [
+        "jupyter",
+        "Jupyter"
+      ]
+    },
+    {
+      "id": "snowflake",
+      "name": "Snowflake",
+      "category": "database",
+      "aliases": [
+        "snowflake",
+        "Snowflake"
+      ]
+    },
+    {
+      "id": "redmine",
+      "name": "Redmine",
+      "category": "tool",
+      "aliases": [
+        "redmine",
+        "Redmine"
+      ]
+    },
+    {
+      "id": "graphql",
+      "name": "GraphQL",
+      "category": "skill",
+      "aliases": [
+        "graphql",
+        "GraphQL",
+        "GraphQL経験",
+        "graphql経験"
+      ]
+    },
+    {
+      "id": "rest-api-design",
+      "name": "REST API設計",
+      "category": "skill",
+      "aliases": [
+        "REST API設計経験",
+        "rest_api設計経験",
+        "REST API設計",
+        "rest api設計経験",
+        "REST API"
+      ]
+    }
+  ]
+}

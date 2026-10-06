@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)"
+    ]
+  },
+  "mcpServers": {
+    "matching-system": {
+      "command": "python",
+      "args": [
+        "mcp_server.py"
+      ]
+    }
+  }
+}

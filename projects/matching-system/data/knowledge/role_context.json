@@ -1,0 +1,30 @@
+[
+  {
+    "id": "role-se",
+    "content": "SE（システムエンジニア）は、要件定義、基本設計、詳細設計、プログラミング、テストを担当。顧客との折衝やチーム開発が主体。Java、Python、SQL、UMLなどのスキルが求められる。",
+    "category": "role",
+    "tags": ["SE", "システムエンジニア", "要件定義", "設計", "開発"],
+    "source": "role_knowledge"
+  },
+  {
+    "id": "role-pm",
+    "content": "PM（プロジェクトマネージャー）は、プロジェクトの計画、進捗管理、品質管理、リスク管理、ステークホルダー調整を担当。PMP、アジャイル、スクラムなどの知識が重要。予算管理や人員配置も担当する。",
+    "category": "role",
+    "tags": ["PM", "プロジェクトマネージャー", "プロジェクト管理", "PMP"],
+    "source": "role_knowledge"
+  },
+  {
+    "id": "role-architect",
+    "content": "アーキテクトは、システム全体の構造設計、技術選定、パフォーマンス設計を担当。マルチクラウド、マイクロサービス、API設計などの高度な技術知識が必要。チームの技術リーダーとしても活動。",
+    "category": "role",
+    "tags": ["アーキテクト", "システムアーキテクト", "技術選定", "設計"],
+    "source": "role_knowledge"
+  },
+  {
+    "id": "role-data-scientist",
+    "content": "データサイエンティストは、統計分析、機械学習モデル構築、データ可視化を担当。Python、R、SQL、TensorFlow、PyTorchなどが主要スキル。ビジネス課題をデータで解決する。",
+    "category": "role",
+    "tags": ["データサイエンティスト", "機械学習", "データ分析", "AI"],
+    "source": "role_knowledge"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "mcpServers": {
+    "weather": {
+      "disabled": false,
+      "timeout": 60,
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\AI-Team\\new\\matching-system",
+        "run",
+        "weather.py"
+      ]
+    },
+    "fetch": {
+      "disabled": false,
+      "timeout": 60,
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--with",
+        "mcp<1.0",
+        "mcp-server-fetch"
+      ]
+    },
+    "rss-reader": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "rss-reader-mcp"
+      ]
+    }
+  }
+}

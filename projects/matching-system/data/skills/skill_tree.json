@@ -1,0 +1,1046 @@
+{
+  "description": "スキルツリー - 最大5階層の階層的スキル体系",
+  "version": "1.0.0",
+  "roots": [
+    {
+      "id": "programming",
+      "name": "プログラミング",
+      "children": [
+        {
+          "id": "backend",
+          "name": "バックエンド",
+          "children": [
+            {
+              "id": "python",
+              "name": "Python",
+              "children": [
+                {
+                  "id": "django",
+                  "name": "Django",
+                  "children": [
+                    {
+                      "id": "django-rest-framework",
+                      "name": "Django REST Framework",
+                      "children": [],
+                      "type": "skill"
+                    }
+                  ],
+                  "type": "skill"
+                },
+                {
+                  "id": "flask",
+                  "name": "Flask",
+                  "children": [],
+                  "type": "skill"
+                },
+                {
+                  "id": "fastapi",
+                  "name": "FastAPI",
+                  "children": [],
+                  "type": "skill"
+                }
+              ],
+              "type": "category"
+            },
+            {
+              "id": "java",
+              "name": "Java",
+              "children": [
+                {
+                  "id": "spring",
+                  "name": "Spring",
+                  "children": [
+                    {
+                      "id": "spring-boot",
+                      "name": "Spring Boot",
+                      "children": [
+                        {
+                          "id": "spring-security",
+                          "name": "Spring Security",
+                          "children": [],
+                          "type": "skill"
+                        },
+                        {
+                          "id": "spring-cloud",
+                          "name": "Spring Cloud",
+                          "children": [],
+                          "type": "skill"
+                        }
+                      ],
+                      "type": "skill"
+                    }
+                  ],
+                  "type": "category"
+                }
+              ],
+              "type": "category"
+            },
+            {
+              "id": "csharp-dotnet",
+              "name": "C#/.NET",
+              "children": [
+                {
+                  "id": "aspnet",
+                  "name": "ASP.NET",
+                  "children": [
+                    {
+                      "id": "aspnet-core",
+                      "name": "ASP.NET Core",
+                      "children": [],
+                      "type": "skill"
+                    }
+                  ],
+                  "type": "skill"
+                }
+              ],
+              "type": "category"
+            },
+            {
+              "id": "go",
+              "name": "Go",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "rust",
+              "name": "Rust",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "ruby",
+              "name": "Ruby",
+              "children": [
+                {
+                  "id": "rails",
+                  "name": "Ruby on Rails",
+                  "children": [],
+                  "type": "skill"
+                }
+              ],
+              "type": "skill"
+            },
+            {
+              "id": "php",
+              "name": "PHP",
+              "children": [
+                {
+                  "id": "laravel",
+                  "name": "Laravel",
+                  "children": [],
+                  "type": "skill"
+                }
+              ],
+              "type": "skill"
+            },
+            {
+              "id": "scala",
+              "name": "Scala",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "kotlin",
+              "name": "Kotlin",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "c",
+              "name": "C",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "cpp",
+              "name": "Cpp",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "csharp",
+              "name": "Csharp",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "nodejs",
+              "name": "Nodejs",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "dotnet",
+              "name": "Dotnet",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "powershell",
+              "name": "Powershell",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "shell",
+              "name": "Shell",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "vba",
+              "name": "Vba",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "r",
+              "name": "R",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "electron",
+              "name": "Electron",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "symfony",
+              "name": "Symfony",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "unity",
+              "name": "Unity",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "unreal-engine",
+              "name": "Unreal Engine",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "api-technologies",
+              "name": "API技術",
+              "type": "category",
+              "children": [
+                {
+                  "id": "graphql",
+                  "name": "GraphQL",
+                  "type": "skill",
+                  "children": []
+                },
+                {
+                  "id": "rest-api-design",
+                  "name": "REST API設計",
+                  "type": "skill",
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "type": "category"
+        },
+        {
+          "id": "frontend",
+          "name": "フロントエンド",
+          "children": [
+            {
+              "id": "javascript",
+              "name": "JavaScript",
+              "children": [
+                {
+                  "id": "typescript",
+                  "name": "TypeScript",
+                  "children": [],
+                  "type": "skill"
+                },
+                {
+                  "id": "react",
+                  "name": "React",
+                  "children": [
+                    {
+                      "id": "nextjs",
+                      "name": "Next.js",
+                      "children": [],
+                      "type": "skill"
+                    },
+                    {
+                      "id": "react-native",
+                      "name": "React Native",
+                      "children": [],
+                      "type": "skill"
+                    }
+                  ],
+                  "type": "skill"
+                },
+                {
+                  "id": "vuejs",
+                  "name": "Vue.js",
+                  "children": [
+                    {
+                      "id": "nuxtjs",
+                      "name": "Nuxt.js",
+                      "children": [],
+                      "type": "skill"
+                    }
+                  ],
+                  "type": "skill"
+                },
+                {
+                  "id": "angular",
+                  "name": "Angular",
+                  "children": [],
+                  "type": "skill"
+                },
+                {
+                  "id": "express",
+                  "name": "Express",
+                  "children": [],
+                  "type": "skill"
+                },
+                {
+                  "id": "nestjs",
+                  "name": "NestJS",
+                  "children": [],
+                  "type": "skill"
+                },
+                {
+                  "id": "jquery",
+                  "name": "jQuery",
+                  "children": [],
+                  "type": "skill"
+                }
+              ],
+              "type": "category"
+            },
+            {
+              "id": "html-css",
+              "name": "HTML/CSS",
+              "children": [
+                {
+                  "id": "html",
+                  "name": "HTML5",
+                  "children": [],
+                  "type": "skill"
+                },
+                {
+                  "id": "css",
+                  "name": "CSS3",
+                  "children": [
+                    {
+                      "id": "sass",
+                      "name": "Sass/SCSS",
+                      "children": [],
+                      "type": "skill"
+                    },
+                    {
+                      "id": "bootstrap",
+                      "name": "Bootstrap",
+                      "children": [],
+                      "type": "skill"
+                    },
+                    {
+                      "id": "tailwind-css",
+                      "name": "Tailwind CSS",
+                      "children": [],
+                      "type": "skill"
+                    }
+                  ],
+                  "type": "skill"
+                }
+              ],
+              "type": "category"
+            }
+          ],
+          "type": "category"
+        },
+        {
+          "id": "mobile",
+          "name": "モバイル",
+          "children": [
+            {
+              "id": "swift",
+              "name": "Swift",
+              "children": [
+                {
+                  "id": "swiftui",
+                  "name": "SwiftUI",
+                  "children": [],
+                  "type": "skill"
+                }
+              ],
+              "type": "skill"
+            },
+            {
+              "id": "kotlin-android",
+              "name": "Kotlin(Android)",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "flutter",
+              "name": "Flutter",
+              "children": [],
+              "type": "skill"
+            }
+          ],
+          "type": "category"
+        }
+      ],
+      "type": "category"
+    },
+    {
+      "id": "infrastructure",
+      "name": "インフラ・クラウド",
+      "children": [
+        {
+          "id": "cloud",
+          "name": "クラウド",
+          "children": [
+            {
+              "id": "aws",
+              "name": "AWS",
+              "children": [
+                {
+                  "id": "dynamodb",
+                  "name": "DynamoDB",
+                  "children": [],
+                  "type": "skill"
+                },
+                {
+                  "id": "redshift",
+                  "name": "Redshift",
+                  "children": [],
+                  "type": "skill"
+                }
+              ],
+              "type": "skill"
+            },
+            {
+              "id": "gcp",
+              "name": "Google Cloud",
+              "children": [
+                {
+                  "id": "bigquery",
+                  "name": "BigQuery",
+                  "children": [],
+                  "type": "skill"
+                },
+                {
+                  "id": "firestore",
+                  "name": "Firestore",
+                  "children": [],
+                  "type": "skill"
+                }
+              ],
+              "type": "skill"
+            },
+            {
+              "id": "azure",
+              "name": "Azure",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "ncp",
+              "name": "Naver Cloud Platform",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "deno",
+              "name": "Deno",
+              "type": "skill",
+              "children": []
+            }
+          ],
+          "type": "category"
+        },
+        {
+          "id": "container",
+          "name": "コンテナ",
+          "children": [
+            {
+              "id": "docker",
+              "name": "Docker",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "kubernetes",
+              "name": "Kubernetes",
+              "children": [],
+              "type": "skill"
+            }
+          ],
+          "type": "category"
+        },
+        {
+          "id": "infra-as-code",
+          "name": "Infrastructure as Code",
+          "children": [
+            {
+              "id": "terraform",
+              "name": "Terraform",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "ansible",
+              "name": "Ansible",
+              "children": [],
+              "type": "skill"
+            }
+          ],
+          "type": "category"
+        },
+        {
+          "id": "cicd",
+          "name": "CI/CD",
+          "children": [
+            {
+              "id": "jenkins",
+              "name": "Jenkins",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "circleci",
+              "name": "CircleCI",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "github-actions",
+              "name": "GitHub Actions",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "gitlab-ci",
+              "name": "GitLab CI",
+              "children": [],
+              "type": "skill"
+            }
+          ],
+          "type": "category"
+        }
+      ],
+      "type": "category"
+    },
+    {
+      "id": "database",
+      "name": "データベース",
+      "children": [
+        {
+          "id": "rdbms",
+          "name": "RDBMS",
+          "children": [
+            {
+              "id": "mysql",
+              "name": "MySQL",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "postgresql",
+              "name": "PostgreSQL",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "oracle-db",
+              "name": "Oracle Database",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "sql-server",
+              "name": "SQL Server",
+              "children": [],
+              "type": "skill"
+            }
+          ],
+          "type": "category"
+        },
+        {
+          "id": "nosql-db",
+          "name": "NoSQL",
+          "children": [
+            {
+              "id": "mongodb",
+              "name": "MongoDB",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "redis",
+              "name": "Redis",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "elasticsearch",
+              "name": "Elasticsearch",
+              "children": [],
+              "type": "skill"
+            }
+          ],
+          "type": "category"
+        },
+        {
+          "id": "sql",
+          "name": "SQL",
+          "type": "skill",
+          "children": []
+        },
+        {
+          "id": "data-warehouse",
+          "name": "データウェアハウス",
+          "type": "category",
+          "children": [
+            {
+              "id": "snowflake",
+              "name": "Snowflake",
+              "type": "skill",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "type": "category"
+    },
+    {
+      "id": "ai-ml",
+      "name": "AI・機械学習",
+      "children": [
+        {
+          "id": "machine-learning",
+          "name": "機械学習",
+          "children": [
+            {
+              "id": "scikit-learn",
+              "name": "scikit-learn",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "pytorch",
+              "name": "PyTorch",
+              "children": [
+                {
+                  "id": "deep-learning",
+                  "name": "深層学習",
+                  "children": [
+                    {
+                      "id": "natural-language-processing",
+                      "name": "自然言語処理",
+                      "children": [],
+                      "type": "skill"
+                    },
+                    {
+                      "id": "image-recognition",
+                      "name": "画像認識",
+                      "children": [],
+                      "type": "skill"
+                    }
+                  ],
+                  "type": "skill"
+                }
+              ],
+              "type": "category"
+            },
+            {
+              "id": "tensorflow",
+              "name": "TensorFlow",
+              "children": [],
+              "type": "skill"
+            }
+          ],
+          "type": "category"
+        },
+        {
+          "id": "llm-rag",
+          "name": "LLM/RAG",
+          "children": [
+            {
+              "id": "llm",
+              "name": "大規模言語モデル",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "rag",
+              "name": "RAG",
+              "children": [],
+              "type": "skill"
+            }
+          ],
+          "type": "category"
+        },
+        {
+          "id": "data-analysis",
+          "name": "データ分析",
+          "children": [
+            {
+              "id": "pandas",
+              "name": "pandas",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "numpy",
+              "name": "NumPy",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "matplotlib",
+              "name": "Matplotlib",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "bi-tools",
+              "name": "BIツール",
+              "type": "category",
+              "children": [
+                {
+                  "id": "tableau",
+                  "name": "Tableau",
+                  "type": "skill",
+                  "children": []
+                },
+                {
+                  "id": "power-bi",
+                  "name": "Power BI",
+                  "type": "skill",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "notebook-tools",
+              "name": "Notebook",
+              "type": "category",
+              "children": [
+                {
+                  "id": "jupyter",
+                  "name": "Jupyter",
+                  "type": "skill",
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "type": "skill"
+        },
+        {
+          "id": "keras",
+          "name": "Keras",
+          "type": "skill",
+          "children": []
+        },
+        {
+          "id": "opencv",
+          "name": "OpenCV",
+          "type": "skill",
+          "children": []
+        }
+      ],
+      "type": "category"
+    },
+    {
+      "id": "development-skills",
+      "name": "開発スキル",
+      "children": [
+        {
+          "id": "process",
+          "name": "開発プロセス",
+          "children": [
+            {
+              "id": "requirements-definition",
+              "name": "要件定義",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "basic-design",
+              "name": "基本設計",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "detailed-design",
+              "name": "詳細設計",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "testing",
+              "name": "テスト",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "agile",
+              "name": "アジャイル開発",
+              "children": [
+                {
+                  "id": "scrum",
+                  "name": "スクラム",
+                  "children": [],
+                  "type": "skill"
+                }
+              ],
+              "type": "skill"
+            }
+          ],
+          "type": "category"
+        },
+        {
+          "id": "management",
+          "name": "マネジメント",
+          "children": [
+            {
+              "id": "project-management",
+              "name": "プロジェクト管理",
+              "children": [
+                {
+                  "id": "pmp",
+                  "name": "PMP",
+                  "children": [],
+                  "type": "skill"
+                }
+              ],
+              "type": "skill"
+            },
+            {
+              "id": "itil",
+              "name": "ITIL",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "applied-information-engineer",
+              "name": "Applied Information Engineer",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "aws-saa",
+              "name": "Aws Saa",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "basic-information-engineer",
+              "name": "Basic Information Engineer",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "oracle-master",
+              "name": "Oracle Master",
+              "type": "skill",
+              "children": []
+            }
+          ],
+          "type": "category"
+        },
+        {
+          "id": "tools",
+          "name": "開発ツール",
+          "children": [
+            {
+              "id": "git",
+              "name": "Git",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "subversion",
+              "name": "Subversion",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "jira",
+              "name": "Jira",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "confluence",
+              "name": "Confluence",
+              "children": [],
+              "type": "skill"
+            }
+          ],
+          "type": "category"
+        },
+        {
+          "id": "design-tools",
+          "name": "デザインツール",
+          "children": [
+            {
+              "id": "figma",
+              "name": "Figma",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "adobe-xd",
+              "name": "Adobe XD",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "photoshop",
+              "name": "Photoshop",
+              "children": [],
+              "type": "skill"
+            },
+            {
+              "id": "illustrator",
+              "name": "Illustrator",
+              "children": [],
+              "type": "skill"
+            }
+          ],
+          "type": "category"
+        },
+        {
+          "id": "testing-tools",
+          "name": "テスト/ツール",
+          "type": "category",
+          "children": [
+            {
+              "id": "jest",
+              "name": "Jest",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "junit",
+              "name": "Junit",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "mocha",
+              "name": "Mocha",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "pytest",
+              "name": "Pytest",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "selenium",
+              "name": "Selenium",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "playwright",
+              "name": "Playwright",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "puppeteer",
+              "name": "Puppeteer",
+              "type": "skill",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "build-tools",
+          "name": "ビルド/フロントエンドツール",
+          "type": "category",
+          "children": [
+            {
+              "id": "webpack",
+              "name": "Webpack",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "vite",
+              "name": "Vite",
+              "type": "skill",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "collab-tools",
+          "name": "コラボレーションツール",
+          "type": "category",
+          "children": [
+            {
+              "id": "notion",
+              "name": "Notion",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "slack",
+              "name": "Slack",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "redmine",
+              "name": "Redmine",
+              "type": "skill",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "domain-skills",
+          "name": "ドメインスキル",
+          "type": "category",
+          "children": [
+            {
+              "id": "data-engineering",
+              "name": "Data Engineering",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "operation-maintenance",
+              "name": "Operation Maintenance",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "technical-support",
+              "name": "Technical Support",
+              "type": "skill",
+              "children": []
+            },
+            {
+              "id": "uml",
+              "name": "Uml",
+              "type": "skill",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "type": "category"
+    }
+  ]
+}
